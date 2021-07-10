@@ -1,7 +1,50 @@
-body {
+html {
   font-family: 'Dancing Script', cursive;
+  color: whitesmoke;
+}
+
+body {
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-top: -6rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: brown;
+  border-radius: 30px;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 1rem;
   font-family: 'Wallpoet', cursive;
+  width: 100%;
+}
+
+.container div p {
+  font-size: 6rem;
+  line-height: 1.5;
+  margin: 0 1.5rem;
+  font-weight: 700;
+}
+
+.container div span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
 }
